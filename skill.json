@@ -1,0 +1,33 @@
+{
+  "name": "genpark-multimodal-chart-data-point-extractor-skill",
+  "version": "1.0.0",
+  "description": "Multimodal chart coordinate calibration and tabular dataset recovery engine transforming visual bar, line, and scatter charts into structured numbers.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "chart-extraction",
+    "multimodal",
+    "coordinate-calibration",
+    "data-recovery",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "calibrate_axis_scale",
+      "description": "Calibrate pixel-to-value linear mapping from axis tick marks."
+    },
+    {
+      "name": "extract_bar_chart_series",
+      "description": "Recover numerical values from bar bounding boxes."
+    },
+    {
+      "name": "extract_scatter_points",
+      "description": "Recover 2D (x, y) coordinates from visual scatter points."
+    },
+    {
+      "name": "run_benchmark_chart_extraction",
+      "description": "Benchmark visual-to-tabular dataset extraction."
+    }
+  ]
+}
